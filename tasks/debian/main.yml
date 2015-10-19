@@ -1,0 +1,3 @@
+---
+- name: debian | install development files for php
+  apt: name={{apt_package}} state=installed
